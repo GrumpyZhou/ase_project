@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup/mobile/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/home/yz/StudioProjects/Mobile_backup/mobile/src/main/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile/mobile/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/home/yz/StudioProjects/Mobile/mobile/src/main/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/res/menu/main_menu.xml"
+    }
+]

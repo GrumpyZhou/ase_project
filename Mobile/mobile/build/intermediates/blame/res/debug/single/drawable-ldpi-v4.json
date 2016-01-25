@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup/mobile/build/intermediates/res/merged/debug/drawable-ldpi-v4/dialog.png",
+        "source": "/home/yz/StudioProjects/Mobile_backup/mobile/src/main/res/drawable-ldpi/dialog.png"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile/mobile/build/intermediates/res/merged/debug/drawable-ldpi-v4/dialog.png",
+        "source": "/home/yz/StudioProjects/Mobile/mobile/src/main/res/drawable-ldpi/dialog.png"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile/mobile/build/intermediates/res/merged/debug/drawable-ldpi-v4/icon.png",
+        "source": "/home/yz/StudioProjects/Mobile/mobile/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/res/merged/debug/drawable-ldpi-v4/exit.png",
+        "source": "/home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/res/drawable-ldpi/exit.png"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/res/merged/debug/drawable-ldpi-v4/dialog.png",
+        "source": "/home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/res/drawable-ldpi/dialog.png"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/res/merged/debug/drawable-ldpi-v4/icon.png",
+        "source": "/home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup/mobile/build/intermediates/res/merged/debug/drawable-ldpi-v4/icon.png",
+        "source": "/home/yz/StudioProjects/Mobile_backup/mobile/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup/mobile/build/intermediates/res/merged/debug/drawable-ldpi-v4/exit.png",
+        "source": "/home/yz/StudioProjects/Mobile_backup/mobile/src/main/res/drawable-ldpi/exit.png"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile/mobile/build/intermediates/res/merged/debug/drawable-ldpi-v4/exit.png",
+        "source": "/home/yz/StudioProjects/Mobile/mobile/src/main/res/drawable-ldpi/exit.png"
+    }
+]

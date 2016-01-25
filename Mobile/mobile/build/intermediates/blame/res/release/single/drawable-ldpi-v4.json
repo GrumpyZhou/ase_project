@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/res/merged/release/drawable-ldpi-v4/dialog.png",
+        "source": "/home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/res/drawable-ldpi/dialog.png"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/res/merged/release/drawable-ldpi-v4/exit.png",
+        "source": "/home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/res/drawable-ldpi/exit.png"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/res/merged/release/drawable-ldpi-v4/icon.png",
+        "source": "/home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/res/drawable-ldpi/icon.png"
+    }
+]

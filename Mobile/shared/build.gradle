@@ -1,0 +1,12 @@
+
+apply plugin: 'java'
+
+dependencies {
+    compile files('lib/bcprov-jdk16-145.jar')
+    compile files('lib/javax.persistence_2.0.1.v201006031150.jar')
+    compile 'com.google.zxing:core:3.2.1'
+    compile 'com.google.zxing:javase:3.2.1'
+    compile 'com.google.zxing:android-core:3.2.1'
+    compile 'com.google.zxing:zxing-parent:3.2.1'
+
+}

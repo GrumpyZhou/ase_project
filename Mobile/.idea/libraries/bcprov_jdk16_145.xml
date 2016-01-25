@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bcprov-jdk16-145">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mobile/lib/bcprov-jdk16-145.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

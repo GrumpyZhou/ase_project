@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'yztest'
+            keyPassword 'yztest'
+            storePassword 'yztest'
+            storeFile file('/home/yz/StudioProjects/KeyStore/mymobile.jks')
+        }
+    }
+    compileSdkVersion 22
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "de.tum.score.transport4you.mobile"
+        minSdkVersion 7
+        targetSdkVersion 7
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            debuggable true
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile project(':shared')
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.9.5'
+    compile files('lib/org.restlet.jar')
+    compile files('lib/bcprov-jdk16-145.jar')
+    compile files('lib/android-support-v4.jar')
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.google.zxing:core:3.2.1'
+}
+
+configurations {
+    all*.exclude group: 'com.android.support', module: 'support-v4'
+}
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.1_81d0565888705e2cc8519792ae4b368adfeb5025.jar" />
+    </item>
+    <item
+        jar="/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/pre-dexed/debug/internal_impl-22.2.1_87394e7682d86a8981a46734bc6dd5ce05a22b2a.jar" />
+    </item>
+    <item
+        jar="/home/yz/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_8eb7a3bacc8f74ef3fa005352ede51551a3bd6d1.jar" />
+    </item>
+    <item
+        jar="/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.1_4699189e4823ed44bd93b38251ff3897ba2e2376.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,195 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:2:1-97:12
+	xmlns:android
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:multidex:1.0.1] /home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:7:15-40
+		INJECTED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:13:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:14:22-65
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:16:5-89
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:16:30-86
+android:uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:17:5-83
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:17:30-80
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:18:5-88
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:18:30-85
+application
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:20:5-95:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:22:9-41
+	android:icon
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:21:9-38
+receiver#de.tum.score.transport4you.mobile.communication.bluetoothcontroller.impl.BluetoothBroadcastReceiver
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:23:9-35:20
+	android:enabled
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:24:13-94
+intent-filter#de.tum.score.transport4you.mobile.shared.MobileIntents.TEAR_DOWN
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:26:13-28:29
+action#de.tum.score.transport4you.mobile.shared.MobileIntents.TEAR_DOWN
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:27:17-107
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:27:25-104
+intent-filter#android.bluetooth.device.action.FOUND
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:29:13-31:29
+action#android.bluetooth.device.action.FOUND
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:30:17-80
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:30:25-77
+intent-filter#android.bluetooth.adapter.action.DISCOVERY_FINISHED
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:32:13-34:29
+action#android.bluetooth.adapter.action.DISCOVERY_FINISHED
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:33:17-94
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:33:25-91
+receiver#de.tum.score.transport4you.mobile.communication.wificontroller.impl.WiFiBroadcastReceiver
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:36:9-45:20
+	android:enabled
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:38:13-35
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:37:13-84
+intent-filter#android.net.wifi.SCAN_RESULTS
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:42:13-44:29
+action#android.net.wifi.SCAN_RESULTS
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:43:17-72
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:43:25-69
+receiver#de.tum.score.transport4you.mobile.communication.connectionmanager.impl.ConnectionBroadcastReceiver
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:46:9-64:20
+	android:enabled
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:48:13-35
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:47:13-93
+intent-filter#de.tum.score.transport4you.mobile.shared.MobileIntents.BUS_WIFI_FOUND
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:49:13-51:29
+action#de.tum.score.transport4you.mobile.shared.MobileIntents.BUS_WIFI_FOUND
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:50:17-112
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:50:25-109
+intent-filter#de.tum.score.transport4you.mobile.shared.MobileIntents.BUS_BT_FOUND
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:52:13-54:29
+action#de.tum.score.transport4you.mobile.shared.MobileIntents.BUS_BT_FOUND
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:53:17-110
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:53:25-107
+intent-filter#de.tum.score.transport4you.mobile.shared.MobileIntents.BUS_BT_TIMEOUT
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:55:13-57:29
+action#de.tum.score.transport4you.mobile.shared.MobileIntents.BUS_BT_TIMEOUT
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:56:17-112
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:56:25-109
+intent-filter#de.tum.score.transport4you.mobile.shared.MobileIntents.BUS_WIFI_TIMEOUT
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:61:13-63:29
+action#de.tum.score.transport4you.mobile.shared.MobileIntents.BUS_WIFI_TIMEOUT
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:62:17-114
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:62:25-111
+activity#de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.LoginScreen
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:66:9-75:20
+	android:screenOrientation
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:69:13-49
+	android:label
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:68:13-45
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:67:13-78
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:70:13-74:29
+action#android.intent.action.MAIN
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:71:17-69
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:71:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:73:17-77
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:73:27-74
+activity#de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.MainScreen
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:76:9-78:52
+	android:screenOrientation
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:78:13-49
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:77:13-77
+activity#de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.AccountDetailsScreen
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:79:9-81:52
+	android:screenOrientation
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:80:13-87
+activity#de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.CustomerInformationScreen
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:82:9-84:52
+	android:screenOrientation
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:83:13-92
+activity#de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.ETicketListScreen
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:85:9-87:52
+	android:screenOrientation
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:87:13-49
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:86:13-84
+activity#de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.SettingsScreen
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:88:9-90:52
+	android:screenOrientation
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:89:13-81
+activity#de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.AvailableETicketListScreen
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:91:9-93:52
+	android:screenOrientation
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:93:13-49
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:92:13-93
+activity#de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.QRCode
+ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:94:9-91
+	android:name
+		ADDED from /home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/AndroidManifest.xml:94:19-79

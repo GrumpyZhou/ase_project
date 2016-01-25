@@ -1,0 +1,16 @@
+-keep class de.tum.score.transport4you.mobile.communication.bluetoothcontroller.impl.BluetoothBroadcastReceiver { <init>(); }
+-keep class de.tum.score.transport4you.mobile.communication.wificontroller.impl.WiFiBroadcastReceiver { <init>(); }
+-keep class de.tum.score.transport4you.mobile.communication.connectionmanager.impl.ConnectionBroadcastReceiver { <init>(); }
+-keep class de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.LoginScreen { <init>(); }
+-keep class de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.MainScreen { <init>(); }
+-keep class de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.AccountDetailsScreen { <init>(); }
+-keep class de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.ETicketListScreen { <init>(); }
+-keep class de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.SettingsScreen { <init>(); }
+-keep class de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.AvailableETicketListScreen { <init>(); }
+-keep class de.tum.score.transport4you.mobile.presentation.presentationmanager.impl.QRCode { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

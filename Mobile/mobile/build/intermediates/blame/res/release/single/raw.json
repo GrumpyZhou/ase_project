@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/res/merged/release/raw/testblob_valid_eticket",
+        "source": "/home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/res/raw/testblob_valid_eticket"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/res/merged/release/raw/testblob_purchase_fail",
+        "source": "/home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/res/raw/testblob_purchase_fail"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/res/merged/release/raw/bus_dh_rsa_cert",
+        "source": "/home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/res/raw/bus_dh_rsa_cert"
+    },
+    {
+        "merged": "/home/yz/StudioProjects/Mobile_backup_1/mobile/build/intermediates/res/merged/release/raw/testblob_purchase_success",
+        "source": "/home/yz/StudioProjects/Mobile_backup_1/mobile/src/main/res/raw/testblob_purchase_success"
+    }
+]

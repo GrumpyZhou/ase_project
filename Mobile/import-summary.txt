@@ -1,0 +1,101 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Mobile:
+* lib/
+* lib/android-support-v13.jar
+* lib/android-support-v4.jar
+* lib/bcprov-jdk16-145.jar
+* lib/org.restlet.ext.atom.jar
+* lib/org.restlet.ext.crypto.jar
+* lib/org.restlet.ext.gson.jar
+* lib/org.restlet.ext.html.jar
+* lib/org.restlet.ext.httpclient.jar
+* lib/org.restlet.ext.jaas.jar
+* lib/org.restlet.ext.jackson.jar
+* lib/org.restlet.ext.jaxrs.jar
+* lib/org.restlet.ext.json.jar
+* lib/org.restlet.ext.jsslutils.jar
+* lib/org.restlet.ext.nio.jar
+* lib/org.restlet.ext.odata.jar
+* lib/org.restlet.ext.rdf.jar
+* lib/org.restlet.ext.sip.jar
+* lib/org.restlet.ext.thymeleaf.jar
+* lib/org.restlet.ext.xml.jar
+* lib/org.restlet.jar
+* test/
+* test/de/
+* test/de/tum/
+* test/de/tum/score/
+* test/de/tum/score/transport4you/
+* test/de/tum/score/transport4you/mobile/
+* test/de/tum/score/transport4you/mobile/application/
+* test/de/tum/score/transport4you/mobile/application/applicationcontroller/
+* test/de/tum/score/transport4you/mobile/application/applicationcontroller/impl/
+* test/de/tum/score/transport4you/mobile/application/applicationcontroller/impl/ApplicationControllerTest.java
+* test/de/tum/score/transport4you/mobile/application/applicationcontroller/impl/ApplicationSingletonTest.java
+* test/de/tum/score/transport4you/mobile/application/synchronizationmanager/
+* test/de/tum/score/transport4you/mobile/application/synchronizationmanager/impl/
+* test/de/tum/score/transport4you/mobile/application/synchronizationmanager/impl/SynchronizationManagerTest.java
+* test/de/tum/score/transport4you/mobile/presentation/
+* test/de/tum/score/transport4you/mobile/presentation/presentationmanager/
+* test/de/tum/score/transport4you/mobile/presentation/presentationmanager/impl/
+* test/de/tum/score/transport4you/mobile/presentation/presentationmanager/impl/LoginScreenTest.java
+* test/de/tum/score/transport4you/mobile/presentation/presentationmanager/impl/MainScreenTest.java
+* tmp/
+* tmp/cached-robolectric-classes.jar
+From Shared:
+* .externalToolBuilders/
+* .externalToolBuilders/New_Builder.launch
+* build.xml
+* dist/
+* dist/busweb.jar
+* dist/mobilebus.jar
+* dist/mobilebusweb.jar
+* dist/mobileweb.jar
+* test_res/
+* test_res/BlobEncryptionKey-cert.pem
+* test_res/BlobEncryptionKey-private.pem
+* test_res/BusMobileDH-cert.pem
+* test_res/BusMobileDH-private.pem
+* test_res/kai.jpg
+* test_res/kai_sml.jpg
+* test_res/test.blob
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In Shared:
+* lib/bcprov-jdk16-145.jar => shared/lib/bcprov-jdk16-145.jar
+* lib/javax.persistence_2.0.1.v201006031150.jar => shared/lib/javax.persistence_2.0.1.v201006031150.jar
+* src/ => shared/src/main/java/
+* test/ => shared/src/main/java/
+In Mobile:
+* AndroidManifest.xml => mobile/src/main/AndroidManifest.xml
+* assets/ => mobile/src/main/assets
+* lint.xml => mobile/lint.xml
+* res/ => mobile/src/main/res/
+* src/ => mobile/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
