@@ -1,0 +1,13 @@
+However, almost at the end of our project, we got to know that the solution is supposed to be HMac...
+
+HMac: validation string = Hash (message + Hash (key + message))
+in the QRCode : message + validation string
+securty issue: if someone(the man in the middle) generates a message (a valid ticket), it is supposed to be denied by the bus because there's no validation string.
+To generate a valid hashcode, one should firstly hack into the bus or the web sytem to get the key.
+In what context is HMac secure enough in the T4Y system: users never leak their QRCodes to anyone else.
+
+Based on the same assumption: we decided to generate the url of the user's profile in the QRCode.
+securityissue: if someone wants to generate a url that is supposed to be valid, one should firstly hack in to the web system and put the fake user's profile into the web.
+QProbably as secure as HMac because of the assumption(the QRCode is always well protected).
+But a disadvantage in our system is: we assume a stable connection between Bus and Web on the Internet :(, meanwhile HMac does not..
+
