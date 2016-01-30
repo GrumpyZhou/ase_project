@@ -1,0 +1,8 @@
+Web<-->Mobile:
+  logging in authentication
+
+Mobile<-->Bus:
+  QRCode
+  
+Web<-->Bus
+  fetching user's profile
